@@ -24,3 +24,9 @@ age = 23
 # str()将非字符窜转为字符串
 message = "Happy " + str(age) + "rd Birthday!"
 print(message)
+
+
+# replace()替换字符串内容
+message = 'I like dogs'
+message = message.replace('dog', 'cat')
+print(message)
