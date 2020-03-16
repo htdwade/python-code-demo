@@ -30,3 +30,9 @@ print(message)
 message = 'I like dogs'
 message = message.replace('dog', 'cat')
 print(message)
+
+
+# split()分割字符串为list
+message = "this is a split test"
+res = message.split()
+print(res)
